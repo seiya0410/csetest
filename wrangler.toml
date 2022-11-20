@@ -2,5 +2,5 @@ name = "csetest"
 main = "src/index.js"
 compatibility_date = "2022-11-16"
 
-account_id = "427178eb4c9344d32cb29c23987861c8" # ← Replace with your Account ID.
+account_id = " " # ← Replace with your Account ID. remove it in case
 workers_dev = false
