@@ -15,7 +15,7 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
 
   const countryMap = {
-  SG: 'http://1.1.1.1'
+  SG: 'https://1.1.1.1'
 };
 
 const CLIENT_IP = request.headers.get('CF-Connecting-IP');
