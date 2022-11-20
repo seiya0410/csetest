@@ -33,8 +33,9 @@ if (COUNTRY != null && COUNTRY in countryMap) {
 const html = `<!DOCTYPE html>
 <body>
   <h1>IP and Country</h1>
-  <p>This is your ${CLIENT_IP}.</p>
-  And you are accessing this site from ${COUNTRY} | ${ASN}
+  <p>This is your ${CLIENT_IP}
+  and you are accessing this site from ${COUNTRY} | ${ASN}
+  </p>
 </body>`
 
 return new Response(html, {
